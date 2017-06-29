@@ -1,0 +1,11 @@
+{
+    "extends": "airbnb",
+    "rules": {
+        "indent": ["error", 4],
+        "react/jsx-indent": ["error", 4],
+        "react/jsx-indent-props": ["error", 4],
+        "react/forbid-prop-types": ["off"],
+        "jsx-a11y/no-noninteractive-element-interactions": ["off"]
+        // "react/forbid-prop-types": ["error", { "forbid": ["any", "object"] }] // Remove "array" from airbnb's config
+    }
+}
